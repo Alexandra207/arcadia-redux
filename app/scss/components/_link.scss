@@ -1,0 +1,16 @@
+.link {
+    color: $white;
+    background-color: $red;
+    border-radius: 32px;
+
+    &:hover,
+    &:focus {
+        background-color: $dark-red;
+    }
+
+    &--disabled {
+        pointer-events: none;
+        cursor: default;
+        background-color: $disabled;
+    }
+}
