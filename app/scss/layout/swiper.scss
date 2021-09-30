@@ -1,0 +1,32 @@
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: $red;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.swiper-slide {
+    width: 258px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #A7A7A7;
+    width: 4px;
+    height: 4px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $red;
+    width: 8px;
+    height: 8px;
+}
+// .swiper-pagination {
+//     @media (min-width: $tablet-width) {
+//         display: none
+//     }
+// }

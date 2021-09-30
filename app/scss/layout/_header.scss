@@ -1,6 +1,37 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: $black;
+    @media (max-width: $mobile-width-only) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 272px;
+    }
+    padding-bottom: 323px;
+    padding-top: 80px;
+}
+
+.header__title, .header__text {
+    color: $white;
+}
+
+.header__title {
+    margin: 0;
+    margin-top: 188px;
+    @media (min-width: $tablet-width) {
+        margin-top: 283px;
+    }
+}
+
+.header__text {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.header__logo {
+    @media (min-width: $tablet-width) {
+        width: 369px;
+        height: 38px;
+    }
 }

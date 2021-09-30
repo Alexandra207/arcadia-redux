@@ -5,6 +5,10 @@
 // Base
 $font: '';
 $base-font-size: 16px;
+$small-font-size: 14px;
+$desktop-width: 1440px;
+$mobile-width-only: 767px;
+$tablet-width: 768px; 
 $base-path: '../';
 
 // Colors
@@ -13,4 +17,5 @@ $black: #030C11;
 $red: #E3202A;
 $dark-red: #B6050E;
 $disabled: #888888;
+
 

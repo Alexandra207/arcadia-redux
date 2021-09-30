@@ -50,15 +50,17 @@
   'base/typography',
   'base/helpers';
 
-// 4. Layout-related sections
-@import
-  'layout/header',
-  'layout/footer';
-
 // 5. Components
 @import
   'components/button',
-  'components/link';
+  'components/link',
+  'components/title';
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/games',
+  'layout/swiper',
+  'layout/footer';
 
 // 6. Page-specific styles
 @import
