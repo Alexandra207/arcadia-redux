@@ -15,7 +15,6 @@
     z-index: 2;
 }
 .games__picture {
-    // position: relative;
     z-index: 2;
     display: block;
         width: 100%;
@@ -53,11 +52,11 @@
 }
 .games__steam {
     display: block;
+    margin: 0 auto;
     margin-top: 32px;
     width: 198px;
     padding-left: 0;
     padding-right: 0;
-    margin: 0 auto;
     text-align: center;
     @media (min-width: $tablet-width) {
         margin-top: 96px;
