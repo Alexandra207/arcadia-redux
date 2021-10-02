@@ -1,5 +1,24 @@
-.header {
+.header { 
+    margin: 0;
+    background: url(../assets/img/arcadia-header@2x.png);
+    background-position: center bottom;
     background-color: $black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        height: 11%;
+        background: linear-gradient( rgba(3, 12, 17, 0) 0%, #030C11 100%);
+        z-index: 4;
+
+    }
     @media (max-width: $mobile-width-only) {
         display: flex;
         flex-direction: column;
@@ -7,9 +26,36 @@
         align-items: center;
         padding-top: 80px;
         padding-bottom: 272px;
+
+        &:after {
+            height: 348px;
+            width: 100%;
+            bottom: 63px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: none;
+            background-color: rgba(28, 169, 184, 0.4);
+            background: url(../assets/img/elipse-blur.svg);
+            background-repeat: no-repeat;
+            background-size: auto;
+            z-index: 1;
+        
+        }
     }
     padding-bottom: 323px;
     padding-top: 80px;
+    @media (min-width: $tablet-width) {
+        background: url(../assets/img/arcadia-header-desktop@1x.png);
+        background-color: $black;
+        background-position: right bottom -35px;
+        background-repeat: no-repeat;
+        background-size: 952px 903px;
+        padding-left: 15%;
+        min-height: 900px;
+    }
+    &:after {
+        height: 35%;
+    }
 }
 
 .header__title, .header__text {

@@ -2,7 +2,10 @@
     width: 100%;
     height: auto;
     @media (max-width: $mobile-width-only) {
-        padding-bottom: 80px;
+        padding-bottom: 65px;
+    }
+    @media (min-width: $desktop-width) {
+        position: static !important;
     }
 }
 
@@ -10,6 +13,7 @@
     @media (max-width: $mobile-width-only) {
         display: none;
     }
+    top: 48%;
     background-color: $red;
     width: 56px;
     height: 56px;
@@ -29,12 +33,14 @@
 
 }
 .swiper-button-next {
+    right: 5%;
     &::before {
         background-image: url(../assets/img/arrow-right.svg);
         background-repeat: no-repeat;
     }
 }
 .swiper-button-prev {
+    left: 6%;
     &::before {
         background-image: url(../assets/img/arrow-left.svg);
         background-repeat: no-repeat;
@@ -62,4 +68,8 @@
     @media (min-width: $tablet-width) {
         display: none
     }
+}
+
+.swiper-slide.swiper-slide-active .games__text {
+    display: block;
 }

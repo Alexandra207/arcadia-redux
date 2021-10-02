@@ -1,17 +1,22 @@
 .link {
+    display: block;
     color: $white;
     background-color: $red;
     border-radius: 32px;
-    padding: 16px 41px;
+    padding: 16px 0;
+    width: 247px;
+    text-align: center;
 
     &:hover,
     &:focus {
         background-color: $dark-red;
+        color: $white;
     }
 
     &--disabled {
         pointer-events: none;
         cursor: default;
         background-color: $disabled;
+        color: $white;
     }
 }
