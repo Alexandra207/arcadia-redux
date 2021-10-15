@@ -70,6 +70,8 @@
     }
 }
 
-.swiper-slide.swiper-slide-active .games__text {
-    display: block;
+.swiper-slide:hover {
+    .games__text {
+        display: block;
+    }
 }

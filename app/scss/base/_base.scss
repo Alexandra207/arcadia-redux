@@ -29,7 +29,7 @@ b, strong {
     font-weight: bold;
 }
 body {
-    @include font();
+    font-family: "Century Gothic", "Arial", sans-serif;
     font-weight: 400;
     color: $black;
     font-size: 16px;
@@ -39,7 +39,7 @@ body {
 
 a {
     text-decoration: none;
-    // font-family: "Rubik", "Arial", sans-serif;
+    font-family: "Century Gothic", "Arial", sans-serif;
 }
 button {
     @include font();

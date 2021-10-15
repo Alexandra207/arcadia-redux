@@ -128,7 +128,7 @@ exports.clean = clean;
 
 const copy = () => {
     return gulp.src([
-        "app/assets/fonts/**/*.{woff,woff2}",
+        "app/assets/fonts/**/*.{woff,woff2,ttf}",
         "app/*.ico",
       ], {
           base: "app"

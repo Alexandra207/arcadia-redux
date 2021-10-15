@@ -45,7 +45,7 @@
     padding-bottom: 323px;
     padding-top: 80px;
     @media (min-width: $tablet-width) {
-        background: url(../assets/img/arcadia-header-desktop@1x.png);
+        background: url(../assets/img/arcadia-header-desktop@2x.png);
         background-color: $black;
         background-position: right bottom -35px;
         background-repeat: no-repeat;
@@ -60,6 +60,7 @@
 
 .header__title, .header__text {
     color: $white;
+    font-family: "Century Gothic", "Arial", sans-serif;
 }
 
 .header__title {
